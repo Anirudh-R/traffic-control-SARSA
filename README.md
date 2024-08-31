@@ -1,19 +1,19 @@
 ## Adaptive traffic control system using Reinforcement Learning
 
-This project implements differential semi-gradient n-step SARSA algorithm to tackle the traffic congestion problem. More information can be found in the /docs folder.
+This project implements differential semi-gradient n-step SARSA algorithm to tackle the traffic congestion problem. More information can be found in the `/docs` folder.
 
-We use SUMO [(Simulation of Urban MObility)](https://eclipse.dev/sumo/) V1.6 package to simulate traffic patterns on which the algorithm has been tested. Details of SUMO installation can be found in the [documentation](https://sumo.dlr.de/docs/Installing.html). The TraCI API is used to control/monitor the simulation from Python.
+We use SUMO ([Simulation of Urban MObility](https://eclipse.dev/sumo/)) V1.6 package to simulate traffic patterns on which the algorithm has been tested. Details of SUMO installation can be found in the [documentation](https://sumo.dlr.de/docs/Installing.html). The TraCI API is used to control/monitor the simulation from Python.
 
 We have used PyCharm and Anaconda for developement of this project. Any IDEs can be used, provided that the dependencies are properly installed in your respective environments.
 
-The project folder contains two directories: src and scripts
-* The src directory contains all the source codes needed to run the project.
-* The scripts directory contains SUMO files needed to generate traffic patterns. Also, output files from SUMO will be generated in this directory.
+The project folder contains two directories:
+* The `/src` directory contains all the source codes needed to run the project.
+* The `/scripts` directory contains SUMO files needed to generate traffic patterns. Also, output files from SUMO will be generated in this directory.
 
 ### Procedure to run the project
-1. Set the n, c, and Nruns parameters in the main.py file. These values can be changed to test the n-step SARSA algorithm. We found optimal performance with n=3 and c=2. 
-2. Run main.py. This will implement SS Algo for *Nruns* trials and LQF Algo for *Nruns* trials. Then trainiing for n-step SARSA will start. Based on the trained weights, SARSA Live will run for *Nruns* trials. All the performance metrics will be stored into the */datapoints* sub-directory at the end of *Nruns* trial.
-3. Set the n and c values that were used in the previous step in the test.py file and run test.py to get the performance graphs.
+1. Set the `n`, `c`, and `Nruns` parameters in the `main.py` file. These values can be changed to test the n-step SARSA algorithm. We found optimal performance with `n=3` and `c=2`. 
+2. Run `main.py`. This will run static signalling algorithm for `Nruns` trials and LQF algorithm for `Nruns` trials. Then, the trainiing for n-step SARSA will start. Based on the trained weights, SARSA Live will run for `Nruns` trials. All the performance metrics will be stored in the `/src/datapoints` sub-directory.
+3. Set the `n` and `c` values that were used in the previous step in the `test.py` file and run it to get the performance graphs.
 
 ### References
 1. Reinforcement Learning: An introduction by Richard S. Sutton and Andrew G. Barto, Chapter 7.
