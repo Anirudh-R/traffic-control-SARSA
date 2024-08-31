@@ -22,7 +22,7 @@ The project folder contains two directories:
    http://www.cse.iitm.ac.in/~prashla/papers/2011RLforTrafficSignalControl_ITS.pdf
 4. Diagnosing Reinforcement Learning for Traffic Signal Control:
    https://arxiv.org/pdf/1905.04716.pdf
-5. Adaptive Traffic SIgnal Control: Exploring Reward Definition for Reinforcement Learning
+5. Adaptive Traffic Signal Control: Exploring Reward Definition for Reinforcement Learning
    https://www.sciencedirect.com/science/article/pii/S1877050917309912
 6. SUMO User Documentation:
    https://sumo.dlr.de/docs/SUMO_User_Documentation.html
