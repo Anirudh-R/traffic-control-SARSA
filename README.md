@@ -1,6 +1,6 @@
 ## Adaptive traffic control system using Reinforcement Learning
 
-This project implements differential semi-gradient n-step SARSA algorithm to tackle the traffic congestion problem. More information can be found in the `/docs` folder.
+This project implements differential semi-gradient n-step SARSA algorithm to tackle the traffic congestion problem. More information can be found in the `/docs` folder and in the first referenced paper.
 
 We use SUMO ([Simulation of Urban MObility](https://eclipse.dev/sumo/)) V1.6 package to simulate traffic patterns on which the algorithm has been tested. Details of SUMO installation can be found in the [documentation](https://sumo.dlr.de/docs/Installing.html). The TraCI API is used to control/monitor the simulation from Python.
 
@@ -16,13 +16,14 @@ The project folder contains two directories:
 3. Set the `n` and `c` values that were used in the previous step in the `test.py` file and run it to get the performance graphs.
 
 ### References
-1. Reinforcement Learning: An introduction by Richard S. Sutton and Andrew G. Barto, Chapter 7.
-2. Reinforcement Learning With Function Approximation for Traffic Signal Control:
+1. Reinforcement Learning based Intelligent Traffic Signal Control using n-step SARSA: https://ieeexplore.ieee.org/document/9395942
+2. Reinforcement Learning: An introduction by Richard S. Sutton and Andrew G. Barto, Chapter 7.
+3. Reinforcement Learning With Function Approximation for Traffic Signal Control:
    http://www.cse.iitm.ac.in/~prashla/papers/2011RLforTrafficSignalControl_ITS.pdf
-3. Diagnosing Reinforcement Learning for Traffic Signal Control:
+4. Diagnosing Reinforcement Learning for Traffic Signal Control:
    https://arxiv.org/pdf/1905.04716.pdf
-4. Adaptive Traffic SIgnal Control: Exploring Reward Definition for Reinforcement Learning
+5. Adaptive Traffic SIgnal Control: Exploring Reward Definition for Reinforcement Learning
    https://www.sciencedirect.com/science/article/pii/S1877050917309912
-5. SUMO User Documentation:
+6. SUMO User Documentation:
    https://sumo.dlr.de/docs/SUMO_User_Documentation.html
-6. TraCI: https://sumo.dlr.de/docs/TraCI.html
+7. TraCI: https://sumo.dlr.de/docs/TraCI.html
