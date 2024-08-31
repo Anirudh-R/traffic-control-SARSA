@@ -2,7 +2,7 @@
 
 This project implements differential semi-gradient n-step SARSA algorithm to tackle the traffic congestion problem. More information can be found in the /docs folder.
 
-We use SUMO [Simulation of Urban MObility] V1.6 package to simulate traffic patterns on which the algorithm has been tested. Details of SUMO installation can be found at https://sumo.dlr.de/docs/Installing.html. The TraCI API is used to control/monitor the simulation from Python.
+We use SUMO [Simulation of Urban MObility](https://eclipse.dev/sumo/) V1.6 package to simulate traffic patterns on which the algorithm has been tested. Details of SUMO installation can be found at https://sumo.dlr.de/docs/Installing.html. The TraCI API is used to control/monitor the simulation from Python.
 
 We have used PyCharm and Anaconda for developement of this project. Any IDEs can be used, provided that the dependencies are properly installed in your respective environments.
 
