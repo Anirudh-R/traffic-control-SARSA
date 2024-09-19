@@ -7,7 +7,7 @@ We use SUMO ([Simulation of Urban MObility](https://eclipse.dev/sumo/)) V1.6 pac
 We have used PyCharm and Anaconda for developement of this project. Any IDEs can be used, provided that the dependencies are properly installed in your respective environments.
 
 The project folder contains two directories:
-* The `/src` directory contains all the source codes needed to run the project.
+* The `/src` directory contains all the source code needed to run the project.
 * The `/scripts` directory contains SUMO files needed to generate traffic patterns. Also, output files from SUMO will be generated in this directory.
 
 ### Procedure to run the project
